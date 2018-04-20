@@ -24,6 +24,10 @@ const COLUMNS = [
   "kcal",
   "description"
 ];
+
+app.get("/h/", (req, res) => {
+  console.log('hello');
+});
 app.get("/api/food", (req, res) => {
   const param = req.query.q;
 
@@ -65,6 +69,7 @@ app.get("/api/food", (req, res) => {
     res.json([]);
   }
 });
+
 
 app.listen(app.get("port"), () => {
   console.log(`Find the server at: http://localhost:${app.get("port")}/`); // eslint-disable-line no-console

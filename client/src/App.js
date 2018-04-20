@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import SelectedFoods from "./SelectedFoods";
 import FoodSearch from "./FoodSearch";
+import axios from 'axios';
 
 class App extends Component {
   state = {
@@ -18,7 +19,10 @@ class App extends Component {
     const newFoods = this.state.selectedFoods.concat(food);
     this.setState({ selectedFoods: newFoods });
   };
+componentDidMount(){
+  fetch('/h')
 
+}
   render() {
     const { selectedFoods } = this.state;
 
