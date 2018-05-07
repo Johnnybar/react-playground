@@ -1,4 +1,4 @@
-# `create-react-app` with a server example
+<!-- # `create-react-app` with a server example
 
 [![TravisCI](https://travis-ci.org/fullstackreact/food-lookup-demo.svg?branch=master)](https://travis-ci.org/fullstackreact/food-lookup-demo)
 [![Dolphins](https://cdn.rawgit.com/fullstackreact/food-lookup-demo/master/dolphins-badge.svg)](https://www.fullstackreact.com)
@@ -129,4 +129,4 @@ heroku apps:create food-lookup-demo
 git push heroku master
 ```
 
-Heroku will give you a link at which to view your live app.
+Heroku will give you a link at which to view your live app. -->
